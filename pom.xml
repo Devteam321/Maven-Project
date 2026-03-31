@@ -10,11 +10,14 @@
   <name>Maven Project</name>
   <description>Sample Maven project with a working, deployable site.</description>
   <url>http://www.example.com</url>
+      <properties>
+        <!-- versions -->
+        <sonar.host.url>http://54.255.202.134:9000/</sonar.host.url>
+        <sonar.login>squ_e3b18f4a88365deb31b176e7909ee9274d416382</sonar.login>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        </properties>
 
-  <properties>
-    <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
-    <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
-  </properties>      
  <!--        
   <modules>
     <module>server</module>
